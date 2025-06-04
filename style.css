@@ -193,7 +193,7 @@ header .container-grid {
     position: relative;
 }
 
-.linha-roxa{
+.linha-roxa {
     position: absolute;
     z-index: -1;
     top: calc(50% - 125px);
@@ -240,16 +240,40 @@ header .container-grid {
     height: 75px;
 }
 
-#servicos .card:hover{
+#servicos .card:hover {
     border: solid 3px var(--verde-PixelV);
 }
 
-#servicos .card:hover h3{
+#servicos .card:hover h3 {
     color: var(--verde-PixelV);
 }
 
-#servicos .card:hover svg{
+#servicos .card:hover svg {
     color: var(--verde-PixelV);
     fill: var(--verde-PixelV);
+}
+
+/* ------Cases de Sucesso------ */
+
+#cases h2 {
+    margin-right: 5px;
+}
+
+#cases {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 120px;
+}
+
+#cases img {
+    height: 300px;
+    border-radius: 40px;
+}
+
+#meuCarrossel {
+    max-width: 1170px;
+    width: 90%;
 }
 
